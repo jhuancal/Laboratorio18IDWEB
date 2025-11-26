@@ -1,4 +1,4 @@
-var ejercicio3 = function () {
+var ejercicio1 = function () {
     fetch("https://jsonplaceholder.typicode.com/users/10")
         .then(respuesta => respuesta.json())
         .then(data => {
@@ -6,7 +6,7 @@ var ejercicio3 = function () {
         console.log("Username:", data.username);
         console.log("Email:", data.email);
         })
-        .catch(error => console.error("Error:", error));
+    .catch(error => console.error("Error:", error));
 };
 
-document.getElementById("btn").addEventListener("click", ejercicio3);
+document.getElementById("btn").addEventListener("click", ejercicio1);

@@ -1,4 +1,4 @@
-var ejercicio8 = function () {
+var ejercicio6 = function () {
     document.getElementById("btnCargar").addEventListener("click", async () => {
         try {
             const respuesta = await fetch("https://jsonplaceholder.typicode.com/users/2");
@@ -15,5 +15,5 @@ var ejercicio8 = function () {
     });
 };
 
-
+ejercicio6();
 
