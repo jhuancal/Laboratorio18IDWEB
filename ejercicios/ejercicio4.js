@@ -10,7 +10,7 @@ var ejercicio4 = async function () {
     }
 };
 
-document.getElementById("btn").addEventListener("click", ejercicio4);
+ejercicio4();
 
 
 

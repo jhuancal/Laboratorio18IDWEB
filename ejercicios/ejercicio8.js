@@ -1,14 +1,8 @@
-const productos = [
-    { nombre: "Laptop", precio: 3500 },
-    { nombre: "Mouse", precio: 80 }
-];
+var ejercicio8 = function () {
+    const regex = /^(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{8,}$/;
 
-document.getElementById("generar").addEventListener("click", () => {
-    const tabla = document.createElement("table");
-    productos.forEach(p => {
-        const fila = document.createElement("tr");
-        fila.innerHTML = `<td>${p.nombre}</td><td>${p.precio}</td>`;
-        tabla.appendChild(fila);
-    });
-    document.getElementById("contenedor").appendChild(tabla);
-});
+    console.log(regex.test("Arequipa123."));
+    console.log(regex.test("arequipa"));
+};
+
+ejercicio8();

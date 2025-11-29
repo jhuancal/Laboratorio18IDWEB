@@ -9,4 +9,4 @@ var ejercicio1 = function () {
     .catch(error => console.error("Error:", error));
 };
 
-document.getElementById("btn").addEventListener("click", ejercicio1);
+ejercicio1();
